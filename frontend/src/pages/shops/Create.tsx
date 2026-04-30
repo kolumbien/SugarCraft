@@ -48,8 +48,9 @@ const CreateShop = () => {
 
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">Shop Name</label>
+            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Shop Name</label>
             <input
+              id="name"
               type="text"
               required
               value={formData.name}
@@ -59,8 +60,9 @@ const CreateShop = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">City</label>
+            <label htmlFor="city" className="block text-sm font-medium text-gray-700 mb-1">City</label>
             <input
+              id="city"
               type="text"
               required
               value={formData.city}
@@ -70,11 +72,12 @@ const CreateShop = () => {
           </div>
 
           <div className="mb-8">
-            <label className="block text-sm font-medium text-gray-700 mb-1">Associated Factory</label>
+            <label htmlFor="factory_id" className="block text-sm font-medium text-gray-700 mb-1">Associated Factory</label>
             {isLoadingFactories ? (
               <div>Loading factories...</div>
             ) : (
               <select
+                id="factory_id"
                 required
                 value={formData.factory_id}
                 onChange={e => setFormData({ ...formData, factory_id: parseInt(e.target.value) })}

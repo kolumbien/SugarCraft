@@ -7,6 +7,15 @@ I have successfully finished building the **SugarCraft** application. It serves 
 ### Backend
 1. Open a terminal.
 2. Navigate to `backend`: `cd backend`
+2.1 First time:
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+
 3. Activate virtual env: `source venv/bin/activate`
 4. Run the server: `fastapi dev app/main.py --port 8000`
    - API Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
