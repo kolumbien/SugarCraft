@@ -1,9 +1,11 @@
 ---
 name: debug-playwright-test
-description: Debug a failed Playwright test by running it with tracing, then analyzing the trace using the CLI trace tool (npx
-playwright trace). Use this skill whenever the user asks to debug, fix, or investigate a failing or flaky Playwright test, or
-when a test execution produces an error. Also triggers when the user says things like "this test is broken", "why is this test
-failing", "fix this test", or "investigate test failure".
+description: >
+  Debug a failed Playwright test by running it with tracing, then analyzing the trace
+  using the CLI trace tool (npx playwright trace). Use this skill whenever the user asks
+  to debug, fix, or investigate a failing or flaky Playwright test, or when a test
+  execution produces an error. Also triggers when the user says things like "this test is
+  broken", "why is this test failing", "fix this test", or "investigate test failure".
 disable-model-invocation: true
 ---
 
@@ -152,4 +154,3 @@ For reference, here is the full list of `npx playwright trace` subcommands:
 | `attachments` | List trace attachments |
 | `attachment [options] <id>` | Extract a specific attachment |
 | `help [command]` | Show help for a command |
-
