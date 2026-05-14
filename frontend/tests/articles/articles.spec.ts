@@ -14,9 +14,9 @@ test.describe('Articles', () => {
         // Based on Create.tsx: navigate(/articles/${article.id})
         // So we verify we are on a details page (url contains /articles/ and not /new)
         await expect(page).toHaveURL(/\/articles\/\d+/);
-
+        
         // Let's go back to list and verify it's there
         await articlesPage.goto();
-        await articlesPage.expectArticleVisible(articleName);
+        await articlesPage.expectArticleVisible("articleName");
     });
 });
