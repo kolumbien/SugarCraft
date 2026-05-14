@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{CE609670-85B9-0D16-FB54-ED063D5D8A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{D873D339-ECAD-B996-11C5-246368685AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8A4007B6-4039-3B77-9B39-2409D293C5F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightTests", "frontend\frontend\tests\PlaywrightTests\PlaywrightTests.csproj", "{75074771-992B-6FAD-0157-F4639B34611D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75074771-992B-6FAD-0157-F4639B34611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75074771-992B-6FAD-0157-F4639B34611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75074771-992B-6FAD-0157-F4639B34611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75074771-992B-6FAD-0157-F4639B34611D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D873D339-ECAD-B996-11C5-246368685AE9} = {CE609670-85B9-0D16-FB54-ED063D5D8A6D}
+		{8A4007B6-4039-3B77-9B39-2409D293C5F5} = {D873D339-ECAD-B996-11C5-246368685AE9}
+		{75074771-992B-6FAD-0157-F4639B34611D} = {8A4007B6-4039-3B77-9B39-2409D293C5F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B47ADBB5-5052-4D90-878D-F53F59748DA4}
+	EndGlobalSection
+EndGlobal

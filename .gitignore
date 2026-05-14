@@ -19,3 +19,11 @@ frontend/dist/
 # Logs
 *.log
 npm-debug.log*
+test-results/.last-run.json
+frontend/test-results/.last-run.json
+frontend/playwright-report/data/8ca9b94b6f8dc91a6dc8cc931cbdd5efca78c311.md
+frontend/test-results/articles-articles-Articles-should-create-a-new-article-chromium/error-context.md
+
+# Ignore all files in obj and bin folders
+**/obj/
+**/bin/
